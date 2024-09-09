@@ -1,0 +1,254 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Alfa Slab One', cursive;
+  }
+  .bacground {
+    background-image: url("img/header-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    
+  }
+  
+  /* nav-bar start */
+  
+  .navbar-expand-md .navbar-nav .nav-link {
+    color: rgb(23, 22, 22);
+  }
+  
+  .navbar-expand-md .navbar-nav .nav-link:hover {
+    color: #ec2222;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+  }
+  
+  li {
+    background-image: url(arrow.gif);
+    background-repeat: no-repeat;
+    background-position: 100% .4em;
+    padding-right: .6em;
+    font-family: 'Alfa Slab One', cursive;
+  }
+  
+  
+  
+  /* nav-ber end */
+  
+  
+  /* logo start */
+  
+  
+  
+  /* logo end */
+  
+  
+  /* promo */
+  .promo-p{
+    margin-top: 150px;
+    
+  }
+  
+  .promo-com{
+    margin-left: 20px;
+  }
+  
+  
+  .promo-l{
+    border: .5px black dashed;
+    padding: 5px;
+    text-align: center;
+    
+  
+      
+  }
+  
+  .burger{
+    font-size:90px;
+    text-shadow: 2px;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: bold;
+  }
+  
+  .week{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Alfa Slab One', cursive;
+  }
+  
+  .promo-img{
+    margin-top: -100px;
+    margin-bottom: 80px;
+  }
+  /* promo end */
+  
+  
+  /* display */
+  .display{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .dis-pizza{
+    height:fit-content;
+    width: auto;
+  }
+  
+  .display-burger{
+    height: 10%;
+    width: auto;
+  }
+  .dis-b{
+    padding-top: 55px;
+  }
+  
+  /* display end */
+  
+  
+  /* Menu */
+  
+  .h-menu{
+    text-align: center;
+    color: #3d2514;
+    font-weight: bolder;
+    font-size: 58px;
+    font-family: 'Alfa Slab One', cursive;
+    /* padding: 50px 0px; */
+  }
+  
+  .menu-pic{
+    padding-top: 50px;
+  }
+  .menu-title{
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 37.5px;
+    padding-bottom: 20px;
+  
+  }
+  .menu-detailes{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16.5px;
+    text-align: center;
+  }
+  
+  /* Menu end */
+  
+  
+  /* Menu button */
+  #Menu{
+    display: flex;
+  }
+  
+  .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+  
+  .hero-btn {
+    border-radius: 50%;
+    margin-top: 130px;
+    padding: 10px 45px;
+    margin-bottom: 110px;
+  }
+  
+  /* Menu button end */
+  
+  
+  .h-offers {
+    text-align: center;
+    color: #3d2514;
+    font-weight: bolder;
+    font-size: 58px;
+    font-family: 'Alfa Slab One', cursive;
+     padding: 60px 0px;
+     margin-top: 100px;
+     /* margin-bottom: 30px; */
+  }
+  
+  .offers-pic{
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .offers-h{
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-top: 60px;
+  }
+  .offers-p{
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  /* offers end */
+  
+  /* table book */
+  .h-tb{
+      text-align: center;
+      color: #3d2514;
+      font-weight: bolder;
+      font-size: 58px;
+      font-family: 'Alfa Slab One', cursive;
+      padding: 80px 0px;
+      margin-top: 150px;
+  }
+  form{
+    margin-bottom: 150px;
+    margin-top: 50px;
+  }
+  .bg-pic{
+    background-image: url(../img/booking-table.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .form-fnt{
+    font-family: 'Alfa Slab One', cursive;
+  }
+  /* table book end */
+  
+  /* footer */
+    .foot-img{
+  
+     background-image: url(img/footer-img.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .foot-logo{
+      margin-top: 100px;
+      margin-bottom: 100px;
+      color: white;
+    }
+    .footer-p{
+      /* font-family: 'Alfa Slab One', cursive; */
+      font-size: 20px;
+      color: white;
+      margin-bottom: 150px;
+    }
+    .foot-lm{
+      color: white;
+      font-size: 22px;
+    }
+    .fot-gap{
+      padding-bottom: 130px;
+    }
+    .right{
+      padding-bottom: 40px;
+    }
+    .rights{
+      color: white;
+      
+    }
+      /* footer end */
